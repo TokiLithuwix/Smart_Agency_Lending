@@ -48,10 +48,6 @@ button {
     opacity: 0.94;
 }
 
-.bb {
-    border: 1px black;
-}
-
 header {
     background: url(../img/b-g.jpg);
     background-size: cover;
@@ -107,13 +103,15 @@ header {
     width: 34px;
     height: 34px;
     z-index: 1;
+    border-radius: 1.5px;
 }
 .nav-line-block > span, .nav-line-block > span::after, .nav-line-block > span::before {
     display: block;
     position: absolute;
     width: 100%;
     height: 4px;
-    background-color:  #170f1c65;
+    background-color: #170f1c65;
+    border-radius: 1.5px;
 }
     .nav-line-block > span::before {
         content: "";
@@ -269,6 +267,7 @@ input[type="submit"]:hover {
     justify-content: center;
     align-content: center;
     position: relative;
+    margin-bottom: 155px;
 }
     .card_1 {
         background: #4eb2f7;
@@ -331,6 +330,6 @@ input[type="submit"]:hover {
     box-shadow: 3px 5px 10px 3px rgba(179, 173, 176, 0.507);
     cursor: pointer;
 }   .know-more-btn:hover.know-more-btn::before,.know-more-btn:hover.know-more-btn::after {
-    background: rgb(100, 26, 26);
+    background: rgb(0, 0, 0);
     opacity: 1;
 }

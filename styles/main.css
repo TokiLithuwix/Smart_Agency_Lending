@@ -333,3 +333,13 @@ input[type="submit"]:hover {
     background: rgb(0, 0, 0);
     opacity: 1;
 }
+
+.img-block {
+    height: 350px;
+    background: #ff5c36;
+    margin-bottom: 25px;
+}
+
+section.featured-works {
+    margin-bottom: 170px;
+}

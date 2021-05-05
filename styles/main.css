@@ -343,3 +343,36 @@ input[type="submit"]:hover {
 section.featured-works {
     margin-bottom: 170px;
 }
+
+.img-col img {
+    padding-top: 24px;
+}
+
+.text-elem-1 {
+    opacity: 0.74;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+    padding-bottom: 15px;
+}   .text-elem-1::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 57px;
+    height: 3px;
+    background: #ff5c36;
+}
+
+.text-elem-2 {
+    opacity: 0.7;
+    line-height: 25px;
+}
+
+.services-btn {
+    width: 240px;
+    margin: 0;
+    margin-left: 20px;
+    padding-left: 40px!important;
+    position: relative;
+}

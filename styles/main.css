@@ -38,6 +38,10 @@ p.subtitle {
     margin-bottom: 110px;
 }
 
+p.diff-subtitle {
+    padding-top: 25px;
+}
+
 button {
     background: none;
     border: none;
@@ -97,7 +101,7 @@ header {
 .nav-line-block {
     display: flex;
     align-items: center;
-    position: fixed;
+    position: relative;
     top: 75px;
     right: 55px;
     width: 34px;
@@ -395,6 +399,25 @@ section.featured-works {
     line-height: 25px;
 }
 
+.img-container {
+    width: 104px;
+    height: 92px;
+    background-color: #fbfbfb;
+    box-shadow: 0px 0px 1px 0px rgba(20,20,21,0.14);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.img-container > img {
+    padding-left: 20px;
+}
+
+.central-text {
+    padding-left: 60px;
+}
+
 .services-btn {
     width: 240px;
     margin: 0;
@@ -436,6 +459,33 @@ section.team-chinen-and-skills {
 .person-3 {
     background: url(../img/export2/6.jpg);
 }
-.bg-watch {
-    background: url("../img/watch.png") no-repeat;
+
+section.clients-said {
+    margin-bottom: 150px;
+}
+
+/* section.clients-said > div:nth-child(1) > p {
+    margin-bottom: 70px;
+} */
+
+.client-review {
+    height: 271px;
+    box-shadow: 0px 0px 27px 0px rgba(20,20,21,0.09);
+    border-radius: 1px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} .client-review::before {
+    content: "";
+    width: 98px;
+    height: 98px;
+    box-shadow: 0px 0px 1px 0px rgba(20,20,21,0.75);
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 110px;
+    z-index: 2;
+    background: #ffffff;
 }

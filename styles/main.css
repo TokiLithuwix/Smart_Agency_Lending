@@ -468,7 +468,7 @@ section.clients-said {
     margin-bottom: 70px;
 } */
 
-.client-review {
+.client-review1, .client-review2 {
     height: 271px;
     box-shadow: 0px 0px 27px 0px rgba(20,20,21,0.09);
     border-radius: 1px;
@@ -477,7 +477,7 @@ section.clients-said {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} .client-review::before {
+} .client-review1::before, .client-review2::before{
     content: "";
     width: 98px;
     height: 98px;
@@ -485,7 +485,10 @@ section.clients-said {
     border-radius: 50%;
     position: absolute;
     top: -50px;
-    left: 110px;
+    left: 220px;
     z-index: 2;
     background: #ffffff;
+    background: url(../img/1.png);
+} .client-review2::before {
+    background: url(../img/2.png);
 }

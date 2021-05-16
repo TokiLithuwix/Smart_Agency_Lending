@@ -38,6 +38,10 @@ p.subtitle {
     margin-bottom: 110px;
 }
 
+p.diff-subtitle {
+    padding-top: 25px;
+}
+
 button {
     background: none;
     border: none;
@@ -97,7 +101,8 @@ header {
 .nav-line-block {
     display: flex;
     align-items: center;
-    position: fixed;
+
+    position: relative;
     top: 75px;
     right: 55px;
     width: 34px;
@@ -340,6 +345,34 @@ input[type="submit"]:hover {
     margin-bottom: 25px;
 }
 
+    .block-11 {
+        background: url(../img/export/11.jpg);
+    }
+    .block-1 {
+        background: url(../img/export/1.jpg);
+    }
+    .block-4 {
+        background: url(../img/export/4.jpg);
+    }
+    .block-7 {
+        background: url(../img/export/7.jpg);
+    }
+    .block-5 {
+        background: url(../img/export/5.jpg);
+    }
+    .block-13 {
+        background: url(../img/export/13.jpg);
+    }
+    .block-8 {
+        background: url(../img/export/8.jpg);
+    }
+    .block-2 {
+        background: url(../img/export/2.jpg);
+    }
+    .block-9 {
+        background: url(../img/export/9.jpg);
+    }
+
 section.featured-works {
     margin-bottom: 170px;
 }
@@ -369,10 +402,96 @@ section.featured-works {
     line-height: 25px;
 }
 
+.img-container {
+    width: 104px;
+    height: 92px;
+    background-color: #fbfbfb;
+    box-shadow: 0px 0px 1px 0px rgba(20,20,21,0.14);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.img-container > img {
+    padding-left: 20px;
+}
+
+.central-text {
+    padding-left: 60px;
+}
+
 .services-btn {
     width: 240px;
     margin: 0;
     margin-left: 20px;
     padding-left: 40px!important;
     position: relative;
+}
+
+section.services-we-provide {
+    margin-bottom: 150px;
+}
+
+section.team-chinen-and-skills {
+    margin-bottom: 150px;
+}
+.team-person {
+    height: 445px;
+    background: #ff5c36;
+    box-shadow: 0px 0px 2px 0px rgba(20,20,21,0.6);
+    position: relative;
+}
+    .team-person::after {
+        content: "";
+        position: absolute;
+        width: 80%;
+        height: 95px;
+        background-color: #ffffff;
+        box-shadow: 1px 6px 16px 0px rgba(20,20,21,0.07);
+        border-radius: 2px;
+        bottom: -30px;
+        left: 38px;
+    }
+.person-1 {
+    background: url(../img/export2/5.jpg);
+}
+.person-2 {
+    background: url(../img/export2/9.jpg);
+}
+.person-3 {
+    background: url(../img/export2/6.jpg);
+}
+
+section.clients-said {
+    margin-bottom: 150px;
+}
+
+/* section.clients-said > div:nth-child(1) > p {
+    margin-bottom: 70px;
+} */
+
+.client-review1, .client-review2 {
+    height: 271px;
+    box-shadow: 0px 0px 27px 0px rgba(20,20,21,0.09);
+    border-radius: 1px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} .client-review1::before, .client-review2::before{
+    content: "";
+    width: 98px;
+    height: 98px;
+    box-shadow: 0px 0px 1px 0px rgba(20,20,21,0.75);
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 220px;
+    z-index: 2;
+    background: #ffffff;
+    background: url(../img/1.png);
+} .client-review2::before {
+    background: url(../img/2.png);
 }
